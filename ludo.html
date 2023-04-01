@@ -1,0 +1,979 @@
+<html>
+<head>
+<style>
+#outer1{
+height:800px;
+width:800px;
+margin:auto;
+background:black;
+position:absolute;
+margin-left:200px;
+}
+#outer{
+height:600px;
+width:600px;
+border:5px solid gray;
+margin:auto;
+margin-top:100px;
+
+}
+#box{
+height:200px;
+width:200px;
+background:blue;
+float:left;
+}
+#square{
+height:140px;
+width:140px;
+background:white;
+float:left;
+margin-top:30px;
+margin-left:30px;
+border-radius:8px;
+}
+#square1{
+height:40px;
+width:40px;
+background:blue;
+float:left;
+margin-top:20px;
+margin-left:20px;
+border-radius:8px;
+}
+#square2{
+height:40px;
+width:40px;
+background:blue;
+float:left;
+margin-top:20px;
+margin-left:20px;
+border-radius:8px;
+}
+#square3{
+height:40px;
+width:40px;
+background:blue;
+float:left;
+margin-top:20px;
+margin-left:20px;
+border-radius:8px;
+}
+#square4{
+height:40px;
+width:40px;
+background:blue;
+float:left;
+margin-top:20px;
+margin-left:20px;
+border-radius:8px;
+}
+#box1{
+height:199px;
+width:196.5px;
+border:1px solid gray;
+float:left;
+}
+#box11{
+height:33px;
+width:196.5px;
+}
+#a{
+height:33px;
+width:64px;
+border:1px solid gray;
+float:left;
+background:white;
+}
+#b{
+height:33px;
+width:64px;
+border:1px solid gray;
+float:left;
+background:white;
+}
+#c{
+height:33px;
+width:62.5px;
+border:1px solid gray;
+float:left;
+background:white;
+}
+#box12{
+height:33px;
+width:196.5px;
+}
+#a1{
+height:33px;
+width:64px;
+border:1px solid gray;
+float:left;
+background:white;
+}
+#b2{
+height:33px;
+width:64px;
+border:1px solid gray;
+float:left;
+background:yellow;
+}
+#c3{
+height:33px;
+width:62.5px;
+border:1px solid gray;
+float:left;
+background:yellow;
+}
+#box13{
+height:33px;
+width:196.5px;
+}
+#a11{
+height:33px;
+width:64px;
+border:1px solid gray;
+float:left;
+background:white;
+}
+#b21{
+height:33px;
+width:64px;
+border:1px solid gray;
+float:left;
+background:yellow;
+}
+#c31{
+height:33px;
+width:62.5px;
+border:1px solid gray;
+float:left;
+background:white;
+}
+#box14{
+height:33px;
+width:196.5px;
+}
+#a12{
+height:33px;
+width:64px;
+border:1px solid gray;
+float:left;
+background:white;
+}
+#b22{
+height:33px;
+width:64px;
+border:1px solid gray;
+float:left;
+background:yellow;
+}
+#c32{
+height:33px;
+width:62.5px;
+border:1px solid gray;
+float:left;
+background:white;
+}
+#box15{
+height:33px;
+width:196.5px;
+}
+#a13{
+height:33px;
+width:64px;
+border:1px solid gray;
+float:left;
+background:white;
+}
+#b23{
+height:33px;
+width:64px;
+border:1px solid gray;
+float:left;
+background:yellow;
+}
+#c33{
+height:33px;
+width:62.5px;
+border:1px solid gray;
+float:left;
+background:white;
+}
+#box16{
+height:33px;
+width:196.5px;
+}
+#a14{
+height:24px;
+width:64px;
+border:1px solid gray;
+float:left;
+background:white;
+}
+#b24{
+height:24px;
+width:64px;
+border:1px solid gray;
+float:left;
+background:yellow;
+}
+#c34{
+height:24px;
+width:62.5px;
+border:1px solid gray;
+float:left;
+background:white;
+}
+#box2{
+height:200px;
+width:200px;
+background:yellow;
+float:left;
+}
+#box3{
+height:140px;
+width:140px;
+background:white;
+float:left;
+margin-top:30px;
+margin-left:30px;
+border-radius:8px;
+}
+#box4{
+height:40px;
+width:40px;
+background:yellow;
+float:left;
+margin-top:20px;
+margin-left:20px;
+border-radius:8px;
+}
+#box5{
+height:40px;
+width:40px;
+background:yellow;
+float:left;
+margin-top:20px;
+margin-left:20px;
+border-radius:8px;
+}
+#box6{
+height:40px;
+width:40px;
+background:yellow;
+float:left;
+margin-top:20px;
+margin-left:20px;
+border-radius:8px;
+}
+#box7{
+height:40px;
+width:40px;
+background:yellow;
+float:left;
+margin-top:20px;
+margin-left:20px;
+border-radius:8px;
+}
+#enner{
+height:200px;
+width:599px;
+background:white;
+border:1px solid gray;
+float:left;
+}
+#enner1{
+height:200px;
+width:200px;
+float:left;
+}
+enner1.1{
+height:66px;
+width:200px;
+}
+#enner11{
+height:66px;
+width:30px;
+border:1px solid gray;
+float:left;
+}
+#enner12{
+height:66px;
+width:33px;
+border:1px solid gray;
+background:blue;
+float:left;
+}
+#enner13{
+height:66px;
+width:33px;
+border:1px solid gray;
+float:left;
+}
+#enner14{
+height:66px;
+width:32px;
+border:1px solid gray;
+float:left;
+}
+#enner15{
+height:66px;
+width:32px;
+border:1px solid gray;
+float:left;
+}
+#enner16{
+height:66px;
+width:28px;
+border:1px solid gray;
+float:left;
+}
+#enner1.2{
+height:66px;
+width:33px;
+border:1px solid gray;
+}
+#enner21{
+height:66px;
+width:30px;
+border:1px solid gray;
+float:left;
+}
+#enner22{
+height:66px;
+width:33px;
+border:1px solid gray;
+background:blue;
+float:left;
+}
+#enner23{
+height:66px;
+width:33px;
+border:1px solid gray;
+background:blue;
+float:left;
+}
+#enner24{
+height:66px;
+width:32px;
+border:1px solid gray;
+background:blue;
+float:left;
+}
+#enner25{
+height:66px;
+width:32px;
+border:1px solid gray;
+background:blue;
+float:left;
+}
+#enner26{
+height:66px;
+width:28px;
+border:1px solid gray;
+background:blue;
+float:left;
+}
+#enner1.3{
+height:644px;
+width:33px;
+border:1px solid gray;
+}
+#enner31{
+height:64px;
+width:30px;
+border:1px solid gray;
+float:left;
+}
+#enner32{
+height:64px;
+width:33px;
+border:1px solid gray;
+float:left;
+}
+#enner33{
+height:64px;
+width:33px;
+border:1px solid gray;
+float:left;
+}
+#enner34{
+height:64px;
+width:32px;
+border:1px solid gray;
+float:left;
+}
+#enner35{
+height:64px;
+width:32px;
+border:1px solid gray;
+float:left;
+}
+#enner36{
+height:64px;
+width:28px;
+border:1px solid gray;
+float:left;
+}
+#enner2{
+height:100px;
+width:99px;
+border:1px solid gray;
+float:left;
+border-top:50px solid yellow;
+border-left:50px solid blue;
+border-bottom:50px solid green;
+border-right:50px solid red;
+
+}
+#enner3{
+height:200px;
+width:199.5px;
+float:left;
+}
+#e{
+height:66px;
+width:200px;
+}
+#e1{
+height:66px;
+width:30px;
+border:1px solid gray;
+float:left;
+}
+#e2{
+height:66px;
+width:33px;
+border:1px solid gray;
+float:left;
+}
+#e3{
+height:66px;
+width:33px;
+border:1px solid gray;
+float:left;
+}
+#e4{
+height:66px;
+width:32px;
+border:1px solid gray;
+float:left;
+}
+#e5{
+height:66px;
+width:32px;
+border:1px solid gray;
+float:left;
+}
+#e6{
+height:66px;
+width:27.50px;
+border:1px solid gray;
+float:left;
+}
+#f{
+height:66px;
+width:199.5px;
+}
+#f1{
+height:66px;
+width:30px;
+border:1px solid gray;
+background:red;
+float:left;
+}
+#f2{
+height:66px;
+width:33px;
+border:1px solid gray;
+background:red;
+float:left;
+}
+#f3{
+height:66px;
+width:33px;
+border:1px solid gray;
+background:red;
+float:left;
+}
+#f4{
+height:66px;
+width:32px;
+border:1px solid gray;
+background:red;
+float:left;
+}
+#f5{
+height:66px;
+width:31px;
+border:1px solid gray;
+background:red;
+float:left;
+}
+#f6{
+height:66px;
+width:28.5px;
+border:1px solid gray;
+background:none;
+float:left;
+}
+#g{
+height:65px;
+width:196px;
+}
+#g1{
+height:64px;
+width:30px;
+border:1px solid gray;
+float:left;
+}
+#g2{
+height:64px;
+width:33px;
+border:1px solid gray;
+background:none;
+float:left;
+}
+#g3{
+height:64px;
+width:33px;
+border:1px solid gray;
+background:none;
+float:left;
+}
+#g4{
+height:64px;
+width:32px;
+border:1px solid gray;
+background:none;
+float:left;
+}
+#g5{
+height:64px;
+width:31px;
+border:1px solid gray;
+background:red;
+float:left;
+}
+#g6{
+height:64px;
+width:28.5px;
+border:1px solid gray;
+float:left;
+}
+#box221{
+height:197px;
+width:200px;
+background:green;
+border:1px solid gray;
+float:left;
+}
+#squ1{
+height:140px;
+width:140px;
+background:white;
+float:left;
+margin-top:30px;
+margin-left:30px;
+border-radius:8px;
+}
+#squ11{
+height:40px;
+width:40px;
+background:green;
+float:left;
+margin-top:20px;
+margin-left:20px;
+border-radius:8px;
+}
+#squ12{
+height:40px;
+width:40px;
+background:green;
+float:left;
+margin-top:20px;
+margin-left:20px;
+border-radius:8px;
+}
+#squ13{
+height:40px;
+width:40px;
+background:green;
+float:left;
+margin-top:20px;
+margin-left:20px;
+border-radius:8px;
+}
+#squ14{
+height:40px;
+width:40px;
+background:green;
+float:left;
+margin-top:20px;
+margin-left:20px;
+border-radius:8px;
+}
+#box222{
+height:196px;
+width:195.5px;
+background:white;
+border:1px solid gray;
+float:left;
+}
+#btn1{
+height:31px;
+width:196.5px;
+}
+#btn11{
+height:31px;
+width:64px;
+border:1px solid gray;
+float:left;
+}
+#btn12{
+height:31px;
+width:64px;
+border:1px solid gray;
+float:left;
+background:green;
+}
+#btn13{
+height:31px;
+width:62.5px;
+border:1px solid gray;
+float:left;
+}
+#btn2{
+height:32px;
+width:196.5px;
+}
+#btn21{
+height:32px;
+width:64px;
+border:1px solid gray;
+float:left;
+}
+#btn22{
+height:32px;
+width:64px;
+border:1px solid gray;
+float:left;
+background:green;
+}
+#btn23{
+height:32px;
+width:62.5px;
+border:1px solid gray;
+float:left;
+}
+#btn3{
+height:32px;
+width:196.5px;
+}
+#btn31{
+height:32px;
+width:64px;
+border:1px solid gray;
+float:left;
+}
+#btn32{
+height:32px;
+width:64px;
+border:1px solid gray;
+float:left;
+background:green;
+}
+#btn33{
+height:32px;
+width:62.5px;
+border:1px solid gray;
+float:left;
+}
+#btn4{
+height:32px;
+width:196.5px;
+}
+#btn41{
+height:32px;
+width:64px;
+border:1px solid gray;
+float:left;
+}
+#btn42{
+height:32px;
+width:64px;
+border:1px solid gray;
+float:left;
+background:green;
+}
+#btn43{
+height:32px;
+width:62.5px;
+border:1px solid gray;
+float:left;
+}
+#btn5{
+height:32px;
+width:196.5px;
+}
+#btn51{
+height:30px;
+width:64px;
+border:1px solid gray;
+float:left;
+background:green;
+}
+#btn52{
+height:30px;
+width:64px;
+border:1px solid gray;
+float:left;
+background:green;
+}
+#btn53{
+height:30px;
+width:62.5px;
+border:1px solid gray;
+float:left;
+}
+#btn6{
+height:29px;
+width:196.5px;
+}
+#btn61{
+height:29px;
+width:64px;
+border:1px solid gray;
+float:left;
+}
+#btn62{
+height:29px;
+width:64px;
+border:1px solid gray;
+float:left;
+}
+#btn63{
+height:29px;
+width:62.5px;
+border:1px solid gray;
+float:left;
+}
+#box333{
+height:196px;
+width:198px;
+background:red;
+float:left;
+border:1px solid gray;
+}
+#squ3{
+height:140px;
+width:140px;
+background:white;
+float:left;
+margin-top:30px;
+margin-left:30px;
+border-radius:8px;
+}
+#squ111{
+height:40px;
+width:40px;
+background:red;
+float:left;
+margin-top:20px;
+margin-left:20px;
+border-radius:8px;
+}
+#squ122{
+height:40px;
+width:40px;
+background:red;
+float:left;
+margin-top:20px;
+margin-left:20px;
+border-radius:8px;
+}
+#squ133{
+height:40px;
+width:40px;
+background:red;
+float:left;
+margin-top:20px;
+margin-left:20px;
+border-radius:8px;
+}
+#squ144{
+height:40px;
+width:40px;
+background:red;
+float:left;
+margin-top:20px;
+margin-left:20px;
+border-radius:8px;
+}
+#devel{color:red;font-family:Broadway;}
+</style>
+</head>
+<body>
+<div id="outer1">
+<div id="outer">
+<div id="box">
+<div id="square">
+<div id="square1"></div>
+<div id="square2"></div>
+<div id="square3"></div>
+<div id="square4"></div>
+</div>
+</div>
+<div id="box1">
+<div id="box11">
+<div id="a"></div>
+<div id="b"></div>
+<div id="c"></div>
+</div>
+<div id="box12">
+<div id="a1"></div>
+<div id="b2"></div>
+<div id="c3"></div>
+</div>
+<div id="box13">
+<div id="a11"></div>
+<div id="b21"></div>
+<div id="c31"></div>
+</div>
+<div id="box14">
+<div id="a12"></div>
+<div id="b22"></div>
+<div id="c32"></div>
+</div>
+<div id="box15">
+<div id="a13"></div>
+<div id="b23"></div>
+<div id="c33"></div>
+</div>
+<div id="box16">
+<div id="a14"></div>
+<div id="b24"></div>
+<div id="c34"></div>
+</div>
+</div>
+<div id="box2">
+<div id="box3">
+<div id="box4"></div>
+<div id="box5"></div>
+<div id="box6"></div>
+<div id="box7"></div>
+</div>
+</div>
+<div id="enner">
+<div id="enner1">
+<div id="enner1.1">
+<div id="enner11"></div>
+<div id="enner12"></div>
+<div id="enner13"></div>
+<div id="enner14"></div>
+<div id="enner15"></div>
+<div id="enner16"></div>
+</div>
+<div id="enner1.2">
+<div id="enner21"></div>
+<div id="enner22"></div>
+<div id="enner23"></div>
+<div id="enner24"></div>
+<div id="enner25"></div>
+<div id="enner26"></div>
+</div>
+<div id="enner1.3">
+<div id="enner31"></div>
+<div id="enner32"></div>
+<div id="enner33"></div>
+<div id="enner34"></div>
+<div id="enner35"></div>
+<div id="enner36"></div>
+</div>
+</div>
+<div id="enner2">
+
+</div>
+<div id="enner3">
+<div id="e">
+<div id="e1"></div>
+<div id="e2"></div>
+<div id="e3"></div>
+<div id="e4"></div>
+<div id="e5"></div>
+<div id="e6"></div>
+</div>
+<div id="f">
+<div id="f1"></div>
+<div id="f2"></div>
+<div id="f3"></div>
+<div id="f4"></div>
+<div id="f5"></div>
+<div id="f6"></div>
+</div>
+<div id="g">
+<div id="g1"></div>
+<div id="g2"></div>
+<div id="g3"></div>
+<div id="g4"></div>
+<div id="g5"></div>
+<div id="g6"></div>
+</div>
+</div>
+</div>
+
+
+<div id="box221">
+<div id="squ1">
+<div id="squ11"></div>
+<div id="squ12"></div>
+<div id="squ13"></div>
+<div id="squ14"></div>
+</div>
+</div>
+
+<div id="box222">
+<div id="btn1">
+<div id="btn11"></div>
+<div id="btn12"></div>
+<div id="btn13"></div>
+</div>
+<div id="btn2">
+<div id="btn21"></div>
+<div id="btn22"></div>
+<div id="btn23"></div>
+</div>
+<div id="btn3">
+<div id="btn31"></div>
+<div id="btn32"></div>
+<div id="btn33"></div>
+</div>
+<div id="btn4">
+<div id="btn41"></div>
+<div id="btn42"></div>
+<div id="btn43"></div>
+</div>
+<div id="btn5">
+<div id="btn51"></div>
+<div id="btn52"></div>
+<div id="btn53"></div>
+</div>
+<div id="btn6">
+<div id="btn61"></div>
+<div id="btn62"></div>
+<div id="btn63"></div>
+</div>
+</div>
+<div id="box333">
+<div id="squ3">
+<div id="squ111"></div>
+<div id="squ122"></div>
+<div id="squ133"></div>
+<div id="squ144"></div>
+</div>
+</div>
+</div>
+</div>
+<div id="devel"><h1><marquee>DEVELOPED BY : Archana<br/>(LUDO)</marquee></h1></div>
+</body>
+</html>
